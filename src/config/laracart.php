@@ -182,4 +182,12 @@ return [
     |
     */
     'guard' => null,
+
+    /*
+    |--------------------------------------------------------------------------
+    | This allows you to exclude any option from generating CartItem hash
+    |--------------------------------------------------------------------------
+    |
+    */
+    'exclude_from_hash' => [],
 ];
